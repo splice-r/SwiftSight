@@ -10,7 +10,18 @@ Additionally, it creates a HTML report file with the screenshots that were taken
 
 ## Usage
 Example: `python swift.py -u urls.txt -p TestProject`
+
 Help: `python swift.py -h`
+
+## Arguments
+-u:  Path to the URLs file
+
+-c: Number of Playwright contexts/browser sessions to use (default: 4)
+
+-p: Name of the project. Helps in screenshot grouping as well as report name (defaults to current timestamp)
+
+-t: Timeout for navigation in milliseconds (default: 10000)
+                                                                                 
 
 ## Features
 - Eliminates URL duplicates from input list
