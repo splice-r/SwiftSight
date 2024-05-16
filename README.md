@@ -1,7 +1,7 @@
 # SwiftSight
 AI developed tool used to perform domain flyovers.
 Code was written mainly through ChatGPT. It leverages Playwright in order to automate the process of opening a list of URLs and taking a screenshot of the page.
-Additionally, it creates a HTML report file with the screenshot that was taken and the "Server" response header.
+Additionally, it creates a HTML report file with the screenshots that were taken and the "Server" response header.
 
 ## Installation
 - clone repository (`git clone https://github.com/splice-r/SwiftSight.git`)
